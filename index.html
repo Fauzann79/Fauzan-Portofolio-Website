@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhamad Fauzan Rafli — Data & Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Fraunces:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav class="topnav">
+  <div class="wrap">
+    <div class="brand">Fauzan Rafli<span>.</span></div>
+    <a class="navcta" href="#contact">Get In Touch
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-glow" id="heroGlow"></div>
+  <div class="blob amber spin-blob" style="width:420px;height:420px; top:-120px; left:-140px;"></div>
+  <div class="blob cyan" style="width:360px;height:360px; bottom:-100px; right:-120px;"></div>
+
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>HI, I'M <em>FAUZAN RAFLI</em> — DATA & WEB DEVELOPER —&nbsp;</span>
+      <span>HI, I'M <em>FAUZAN RAFLI</em> — DATA & WEB DEVELOPER —&nbsp;</span>
+    </div>
+  </div>
+
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-role"><span class="pulse-dot"></span>Head of Administration → Aspiring Data Analyst</div>
+      <p class="hero-desc">Final-year Informatics student with 3+ years of experience in educational administration, data management, and information systems. I turn raw operational data into decisions with SQL, Excel &amp; Power BI, and I'm deepening my skills in Python, data engineering, and dbt.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#work">View Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#contact">Get In Touch</a>
+      </div>
+      <div class="social-row">
+        <a href="https://github.com/Fauzann79" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.17v3.21c0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/fauzan-rafli" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.62 0 4.28 2.38 4.28 5.48v6.26ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+        </a>
+        <a href="mailto:frafli905@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+      </div>
+    </div>
+     <div class="hero-panel">
+      <div class="tbar"><div class="tdot r"></div><div class="tdot y"></div><div class="tdot g"></div></div>
+      <code><span class="kw">SELECT</span> Muhamad Fauzan Rafli, Data Enthusiast</code>
+      <code><span class="kw">FROM</span> career</code>
+      <code><span class="kw">WHERE</span> focus = <span class="str">'data'</span></code>
+      <code><span class="kw">AND</span> mindset = <span class="str">'growth'</span>;<span class="type-cursor"></span></code>
+      <div class="hero-stats">
+        <div class="stat"><b data-count="3" data-suffix="+">0</b><span>YEARS EXPERIENCE</span></div>
+        <div class="stat"><b data-count="250" data-suffix="+">0</b><span>STUDENTS &amp; STAFF SUPPORTED</span></div>
+        <div class="stat"><b data-count="2026" data-nocommify="true">0</b><span>EXPECTED GRADUATION</span></div>
+        <div class="stat"><b data-count="6">0</b><span>CERTIFICATIONS EARNED</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="blob amber" style="width:500px;height:500px; top:20%; right:-220px;"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">All About Me</div>
+    <p class="about-lead reveal">Hi, I'm <em>Fauzan Rafli</em> — Head of Administration and Informatics teacher, and a final-year Informatics student working at the intersection of <span class="accent">running operations</span> and understanding the <em>data</em> that flows through them. I'd rather learn through real projects than abstract theory.</p>
+    <a class="btn primary reveal" href="#work">View Projects
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+    <div class="about-cards reveal-stagger">
+      <div class="about-card" style="--pct:85%;">
+        <div class="top-row"><div class="about-icon">ADM</div><div class="pct-badge">85%</div></div>
+        <h3>Administration & Operations</h3>
+        <p>Running academic and administrative operations, documentation control, and cross-functional reporting for 250+ students and staff.</p>
+        <div class="bar-track"><div class="bar-fill"></div></div>
+      </div>
+      <div class="about-card" style="--pct:80%;">
+        <div class="top-row"><div class="about-icon">SQL</div><div class="pct-badge">80%</div></div>
+        <h3>Data Analysis</h3>
+        <p>Turning raw operational and academic tables into dashboards and insights that support faster decisions.</p>
+        <div class="bar-track"><div class="bar-fill"></div></div>
+      </div>
+      <div class="about-card" style="--pct:70%;">
+        <div class="top-row"><div class="about-icon">PHP</div><div class="pct-badge">70%</div></div>
+        <h3>Web Development</h3>
+        <p>Building web applications and school information systems from database structure through to the interface.</p>
+        <div class="bar-track"><div class="bar-fill"></div></div>
+      </div>
+       <div class="about-card" style="--pct:70%;">
+        <div class="top-row"><div class="about-icon">PHP</div><div class="pct-badge">70%</div></div>
+        <h3>Data Warehouse</h3>
+        <p>Designing and maintaining data warehouses to support business intelligence and reporting needs.</p>
+        <div class="bar-track"><div class="bar-fill"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="blob cyan" style="width:420px;height:420px; top:-60px; right:-160px;"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">SELECT * FROM work_history</div>
+    <h2 class="reveal" style="margin-bottom:8px;">Experience</h2>
+    <p class="reveal" style="color:var(--muted); font-size:15px; max-width:520px; margin-bottom:32px;">Four years in educational administration and systems, alongside teaching and freelance web development.</p>
+
+    <div class="services-list reveal">
+      <div class="service-row">
+        <span class="service-num">23–now</span>
+        <span class="service-title">Head of <em>Administration</em></span>
+        <span class="service-tags">SMP Global Chandra Baga <span class="dot">•</span> Bekasi</span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">22–now</span>
+        <span class="service-title">Informatics <em>Teacher</em></span>
+        <span class="service-tags">SMP Global Chandra Baga <span class="dot">•</span> Bekasi</span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">22–now</span>
+        <span class="service-title">IT & Systems <em>Administrator</em></span>
+        <span class="service-tags">SMP Global Chandra Baga <span class="dot">•</span> Bekasi</span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">24–25</span>
+        <span class="service-title">Computer Science <em>Teacher</em></span>
+        <span class="service-tags">SMK Global Surya Mandiri <span class="dot">•</span> Bekasi</span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">23–25</span>
+        <span class="service-title">Freelance <em>Web Developer</em></span>
+        <span class="service-tags">Freelance <span class="dot">•</span> Remote</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="blob cyan spin-blob" style="width:520px;height:520px; top:10%; left:50%; transform:translateX(-50%);"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">WHERE skills.match = true</div>
+    <h2 class="reveal" style="margin-bottom:8px;">What I do</h2>
+    <p class="reveal" style="color:var(--muted); font-size:15px; max-width:520px;">Three disciplines that reinforce each other — running the operation, building the system, and reading the data.</p>
+
+    <div class="services-list reveal">
+      <div class="service-row">
+        <span class="service-num">01</span>
+        <span class="service-title">Data <em>Analysis</em></span>
+        <span class="service-tags">SQL <span class="dot">•</span> Power BI <span class="dot">•</span> Excel</span>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg></span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">02</span>
+        <span class="service-title">Web <em>Development</em></span>
+        <span class="service-tags">PHP <span class="dot">•</span> MySQL <span class="dot">•</span> UI</span>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg></span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">03</span>
+        <span class="service-title">Educational <em>Administration</em></span>
+        <span class="service-tags">Reporting <span class="dot">•</span> Documentation <span class="dot">•</span> Systems</span>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tools">
+  <div class="blob amber" style="width:440px;height:440px; top:-80px; left:-160px;"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">USING toolkit.*</div>
+    <h2 class="reveal" style="margin-bottom:8px;">Tools I Use</h2>
+    <p class="reveal" style="color:var(--muted); font-size:15px; max-width:520px;">The stack behind my data, web, and admin work.</p>
+
+    <div class="about-cards reveal-stagger" style="margin-top:32px;">
+      <div class="about-card">
+        <div class="top-row"><div class="about-icon">DA</div></div>
+        <h3>Data & BI</h3>
+        <p>Cleaning, modeling, and visualizing data for reporting and decisions.</p>
+        <div class="work-stack">
+          <span>SQL</span><span>Power BI</span><span>Tableau</span><span>Excel</span>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="top-row"><div class="about-icon">DEV</div></div>
+        <h3>Programming & Databases</h3>
+        <p>Building applications and systems from the database up.</p>
+        <div class="work-stack">
+          <span>PHP</span><span>Python</span><span>JavaScript</span><span>MySQL</span>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="top-row"><div class="about-icon">ETL</div></div>
+        <h3>Data Engineering</h3>
+        <p>Currently deepening my skills in ETL and warehouse design.</p>
+        <div class="work-stack">
+          <span>ETL</span><span>Data Warehouse</span><span>Star Schema</span><span>Dimensional Modeling</span>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="top-row"><div class="about-icon">OPS</div></div>
+        <h3>Admin & Docs</h3>
+        <p>Documentation, reporting systems, and day-to-day operations.</p>
+        <div class="work-stack">
+          <span>Google Workspace</span><span>Documentation Control</span><span>Reporting Systems</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="eyebrow reveal">JOIN web_dev, data</div>
+    <h2 class="reveal" style="margin-bottom:8px;">Selected Projects</h2>
+    <p class="reveal" style="color:var(--muted); font-size:15px; max-width:520px;">Where my two disciplines meet — systems built, data analyzed.</p>
+    <div class="work-grid reveal-stagger">
+      <div class="work-card">
+        <div class="work-thumb data"><div class="grid-overlay"></div><span class="year-badge">2025</span><span class="thumb-inner">DISASTER_DATA</span></div>
+        <div class="work-body">
+          <div class="work-tag">Data Analysis</div>
+          <h3>Indonesia National Disaster Intelligence</h3>
+          <p>An analytics dashboard on national disaster data, from raw data cleaning to easy-to-read visualizations.</p>
+          <div class="work-stack"><span>SQL</span><span>Power BI</span></div>
+          <a class="work-link" href="https://github.com/Fauzann79/Indonesia-Disaster-Impact-Analysis" target="_blank" rel="noopener">github.com/Fauzann79
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb data"><div class="grid-overlay"></div><span class="year-badge">2025</span><span class="thumb-inner">CHURN_MODEL</span></div>
+        <div class="work-body">
+          <div class="work-tag">Data Analysis</div>
+          <h3>Customer Churn Analysis</h3>
+          <p>Churn analysis for telecom customers to identify patterns among customers at risk of leaving.</p>
+          <div class="work-stack"><span>SQL</span><span>Power BI</span></div>
+          <a class="work-link" href="https://github.com/Fauzann79/Customer-Churn-Analysis-Retention-Strategy-Reducing-Revenue-Leakage-in-Telecommunication/tree/main" target="_blank" rel="noopener">github.com/Fauzann79
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb data"><div class="grid-overlay"></div><span class="year-badge">2024</span><span class="thumb-inner">QUALITY_QA</span></div>
+        <div class="work-body">
+          <div class="work-tag">Data Analysis</div>
+          <h3>Manufacturing Quality Analysis</h3>
+          <p>Exploratory analysis of manufacturing quality data to highlight points contributing to product defects.</p>
+          <div class="work-stack"><span>SQL</span><span>Power BI</span></div>
+          <a class="work-link" href="https://github.com/Fauzann79" target="_blank" rel="noopener">github.com/Fauzann79
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb web"><div class="grid-overlay"></div><span class="year-badge">2024</span><span class="thumb-inner">SIS_SMPGLOBAL</span></div>
+        <div class="work-body">
+          <div class="work-tag">Web Development</div>
+          <h3>SIS SMP Global Chandra Baga</h3>
+          <p>A PHP-based school information system managing student data, grades, and attendance.</p>
+          <div class="work-stack"><span>PHP</span><span>MySQL</span></div>
+          <a class="work-link" href="https://github.com/Fauzann79" target="_blank" rel="noopener">github.com/Fauzann79
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb web"><div class="grid-overlay"></div><span class="year-badge">2026</span><span class="thumb-inner">Data Analyst</span></div>
+        <div class="work-body">
+          <div class="work-tag">Data Analyst</div>
+          <h3>Boston Marathon Analysis</h3>
+          <p>Exploring Boston Marathon race results, focusing on runner performance, finishing times, pacing patterns, and performance trends through data analysis and visualization.</p>
+          <div class="work-stack"><span>Excel</span><span>SQL</span><span>Power BI</span></div>
+          <a class="work-link" href="https://github.com/Fauzann79/boston-marathon-analysis-2015-2017" target="_blank" rel="noopener">github.com/Fauzann79
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-thumb web"><div class="grid-overlay"></div><span class="year-badge">2026</span><span class="thumb-inner">Data Warehouse</span></div>
+        <div class="work-body">
+          <div class="work-tag">Data Warehouse</div>
+          <h3>Data Warehouse and Analytics Project</h3>
+          <p>Demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.</p>
+          <div class="work-stack"><span>Excel</span><span>SQL</span><span>Power BI</span></div>
+          <a class="work-link" href="https://github.com/Fauzann79/Data-Warehouse-Project" target="_blank" rel="noopener">github.com/Fauzann79
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="eyebrow reveal" style="margin-top:56px;">SKILLS IN</div>
+    <div class="skills-marquee-wrap reveal">
+      <div class="skills-marquee-track">
+        <span class="skill-badge">SQL</span><span class="skill-badge">Power BI</span><span class="skill-badge">Tableau</span><span class="skill-badge">Excel</span><span class="skill-badge">PHP</span><span class="skill-badge">JavaScript</span><span class="skill-badge learning">Python</span><span class="skill-badge learning">ETL / Data Warehousing</span>
+        <span class="skill-badge">SQL</span><span class="skill-badge">Power BI</span><span class="skill-badge">Tableau</span><span class="skill-badge">Excel</span><span class="skill-badge">PHP</span><span class="skill-badge">JavaScript</span><span class="skill-badge learning">Python</span><span class="skill-badge learning">ETL / Data Warehousing</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="blob amber" style="width:460px;height:460px; bottom:-160px; left:-160px;"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">Get In Touch, Questions First</div>
+    <h2 class="reveal" style="margin-bottom:8px;">Frequently Asked Questions</h2>
+    <div class="faq-list reveal">
+      <div class="faq-item open">
+        <div class="faq-q"><span>Are you open to freelance projects or internships?</span><span class="faq-toggle"></span></div>
+        <div class="faq-a"><p>Yes, I'm open to freelance projects, internships, and data research collaborations.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What tools and languages are you strongest in?</span><span class="faq-toggle"></span></div>
+        <div class="faq-a"><p>SQL, Power BI, and PHP for now — currently deepening my skills in Python and data engineering.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What's the best way to reach you?</span><span class="faq-toggle"></span></div>
+        <div class="faq-a"><p>Send an email or reach out on LinkedIn — I usually reply within 24 hours.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Can you work remotely?</span><span class="faq-toggle"></span></div>
+        <div class="faq-a"><p>Yes, I'm used to collaborating remotely with git and other collaborative tools.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="blob cyan" style="width:600px;height:600px; top:-200px; left:50%; transform:translateX(-50%);"></div>
+  <div class="wrap">
+    <div class="eyebrow reveal">ORDER BY priority</div>
+    <h2 class="reveal">Interested in collaborating<br>or just talking data?</h2>
+    <a class="btn primary reveal" href="#contact">Get In Touch
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-top reveal">
+      <h3>Have a data project or system you'd like to build together?</h3>
+      <div class="footer-pills">
+        <div class="footer-pill">
+          <p>Email me</p>
+          <a href="mailto:frafli905@gmail.com">frafli905@gmail.com</a>
+        </div>
+        <div class="footer-pill">
+          <p>GitHub</p>
+          <a href="https://github.com/Fauzann79" target="_blank" rel="noopener">github.com/Fauzann79</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <p>Contact</p>
+        <a href="mailto:frafli905@gmail.com">frafli905@gmail.com</a>
+        <a href="https://linkedin.com/in/fauzan-rafli" target="_blank" rel="noopener">linkedin.com/in/fauzan-rafli</a>
+        <a href="https://github.com/Fauzann79" target="_blank" rel="noopener">github.com/Fauzann79</a>
+      </div>
+      <div class="footer-col">
+        <p>Pages</p>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#tools">Tools</a>
+        <a href="#work">Work</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Muhamad Fauzan Rafli</span>
+      <span>Built with a query, not a template.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="floatnav">
+  <div class="flogo">Rafli<span>.</span></div>
+  <div class="floatnav-links">
+    <a href="#about" data-sec="about">About</a>
+    <a href="#experience" data-sec="experience">Experience</a>
+    <a href="#tools" data-sec="tools">Tools</a>
+    <a href="#work" data-sec="work">Work</a>
+    <a href="#faq" data-sec="faq">FAQ</a>
+    <a href="#contact" data-sec="contact">Contact</a>
+  </div>
+  <a class="floatnav-cta" href="#contact">Contact</a>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
