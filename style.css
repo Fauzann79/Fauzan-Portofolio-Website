@@ -113,7 +113,7 @@
     background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:28px;
     box-shadow:0 30px 60px -25px rgba(0,0,0,0.6); animation:float 6s ease-in-out infinite; position:relative;
   }
- .hero-photo{
+.hero-photo{
   border-radius:12px;
   overflow:hidden;
   margin-bottom:4px;
